@@ -14,23 +14,24 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
-    
-
 }   
+
 .left-login{
-    width:100vw;
+    width:50vw;
     height:100vh;
-    background-color: #201b2c;
     display:flex;
     justify-content: center;
-    align-items: center;
-    color:#00ff88;   
-    font-family: cursive;
-    padding-left: 80px;
-    gap: 9px;
-
+    align-items: center; 
+    flex-direction: column;
 }
 
+.left-login > h1 {
+    color: #77ffc0;
+}
+
+.imagem.principal{
+    width:300px ;
+}
 
 .right-login{
     width:50vw;
@@ -38,9 +39,9 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
-    
 
 }
+
 .card-login{
     width: 60%;
     display:flex;
@@ -48,7 +49,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background-color: #2f2841;
+    background: #2f2841;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
 }
@@ -58,13 +59,13 @@ body {
     margin: 0;   
 }
 .textfield{
-    width: 100%;
     display: flex;
     flex-direction:column ;
     align-items: flex-start;
     justify-content: center;
-    margin: 10PX 0px;
+    margin:10px;
 }
+
 .textfield > input {
     width: 100%;
     border: none;   
@@ -77,10 +78,12 @@ body {
     outline: none;
     box-sizing: border-box;
 }
+
 .textfield > label {
     color: #f0ffffde;
-    margin-bottom: 10PX ;
+    margin-bottom: 10px;
 }
+
 .textfield > input::placeholder{
     color: #f0ffff94;
 }
@@ -99,4 +102,13 @@ body {
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00ff8052;
     font-family: cursive;
+}
+.rodape{
+    background: #00ff88;
+    margin: 0px;
+    display: flex;
+    flex-direction: center;
+    align-items: flex-end;
+    justify-content: end;
+    padding-right: 20px;
 }
