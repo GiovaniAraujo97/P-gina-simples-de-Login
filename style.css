@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2? family= Dosis & family= Fuzzy+Bubbles:wght@700 & display=swap');
 
 
+
 body {
     margin: 0;
     font-family: 'Fuzzy Bubbles', cursiva;
@@ -27,7 +28,8 @@ body {
 
 .left-login > h1 {
     color: #77ffc0;
-}
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}   
 
 .imagem.principal{
     width:300px ;
@@ -56,7 +58,8 @@ body {
 .card-login > h1{
     color: #00ff88;
     font-weight: 800;
-    margin: 0;   
+    margin: 0;  
+    font-family: Verdana;  
 }
 .textfield{
     display: flex;
